@@ -1,0 +1,6 @@
+.example-header-image {
+    background-image: linear-gradient(rgba(238, 193, 193, 0.2), rgba(228, 208, 208, 0.7)), url('../../../../assets/medlistimg.png');
+    background-size: cover;
+    background-position:cover;
+  }
+

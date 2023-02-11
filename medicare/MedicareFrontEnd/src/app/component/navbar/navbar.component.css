@@ -1,0 +1,42 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .but{
+    /* background: rgb(225, 216, 225); */
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 130px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  .but:hover{
+    background: rgb(255, 255, 255);
+    color: #95165c;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 130px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  .fonsz{
+    font-weight: 700 !important;
+    font-size: 30px !important;
+
+  }
+

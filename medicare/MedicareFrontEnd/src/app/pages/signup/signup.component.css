@@ -1,0 +1,27 @@
+.full-width{
+    width: 100%;
+}
+
+
+img{
+    width: 50px;
+    margin-top: 20px;
+}
+
+.but{
+    /* background: rgb(225, 216, 225); */
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid rgb(255, 255, 255);    
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  .but:hover{
+    background: rgb(230, 53, 151);
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+  }

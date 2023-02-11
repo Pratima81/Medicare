@@ -1,0 +1,19 @@
+.example-header-image {
+    background-image: url('../../../../../../assets/medlistimg.png');
+    background-size: cover;
+  }
+
+  .truncate{
+    display: block;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.medlist{
+
+  margin-top: 20px !important;
+  
+
+}

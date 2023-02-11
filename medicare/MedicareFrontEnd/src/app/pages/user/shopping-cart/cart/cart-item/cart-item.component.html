@@ -1,0 +1,8 @@
+<div class="cart-item">
+    Product Name: <span>{{cartItem.productName}}</span><br>
+    Product Quantity: <span>{{cartItem.qty}}</span><br>
+    Product Amount: <strong>{{ (cartItem.qty * cartItem.price) | currency : 'Rs ' }}</strong><br>
+
+    <!-- <button mat-raised-button color="accent" class="ml20"  (click)="handleDecrement()"> + </button> -->
+    <button mat-raised-button color="accent" class="ml20"  (click)="handleDecrement()"> DEL </button>
+</div>
